@@ -42,7 +42,6 @@ while (!salir) {
           alert("Intenta ingresar una opción válida.");
         } else {
           var listaNum = [num1, num2];
-
           alert("Números ingresados: " + listaNum[0] + " y " + listaNum[1] + 
           "\n Suma: " + listaNum.reduce(metodos.sumar) +
           "\n Resta: " + listaNum.reduce(metodos.restar) +

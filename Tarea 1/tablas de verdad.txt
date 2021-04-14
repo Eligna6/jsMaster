@@ -1,0 +1,46 @@
+Curso Javascript Master
+Instructor: Fernando Ibarra Hernandez
+Por: Ignacio Torres
+
+Tarea 001 Clase 02 Tema 2.3
+
+Resumen
+
+Con la siguiente tarea el alumno comprender ́a mejor el uso de las tablas de
+verdad y las posibilidades que puede tener cuando se usan correctamente.
+
+Ejercicio 01
+( T ∧ F ) ∨ ( F ∨ F ) ∨ ¬(T) => R: F
+( F ∨ F ) ∨ F
+      F ∨ F
+        F
+
+Ejercicio 02
+( T ∨ F ∧ F) ∨ ( F ∨ F ∧ T ) ∨ (T ∧ F) => R: F
+ F ∨ F ∨ F
+  F ∨ F
+    F
+
+Ejercicio 03
+( ( T ∧ F ) ∨ ( F ∨ F ) ) ∧ ( ( T ∧ F ) ) => R: F
+(  F ∨ F ) ∧ ( F )
+ F ∧ F
+   F
+
+Ejercicio 04
+( F ∨ T ) ∨ ( ¬(F) ∧ T ) ∧ ( ( F ∨ T ) ∨ ( ¬(T) ∧ F ) ) ∧ ( ¬( F ∨ T ) ) => R: F
+T ∨ T ∧ ( T ∧ ( T ∨ F) ) ∧ F
+T ∨ T ∧ ( T ∧ T ) ∧ F
+T ∨ T ∧ T ∧ F
+T ∧ T ∧ F
+T ∧ F
+  F
+
+Ejercicio 05
+( F ∨ F ) ∧ ( ¬(T) ∧ F ) ∨ ( F ∨ T ) ∧ ( ¬ ( ( F ∨ F ) ∨ ( T ∨ F ) ) ) => R: F
+F ∧ F ∨ T ∧ ( ¬ ( F ∨ T ) )
+F ∧ F ∨ T ∧ F
+F ∨ T ∧ F
+T ∧ F
+F
+
